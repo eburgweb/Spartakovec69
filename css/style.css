@@ -172,7 +172,7 @@ iframe {
 }
 
 .slide__photo img {
-  margin: 0 auto;
+  margin: auto auto;
   max-width: 800px;
   max-height: 540px;
   width: 100%;
@@ -181,6 +181,11 @@ iframe {
 .slide__photo-8 img,
 .slide__photo-9 img {
   max-width: 600px;
+}
+
+.slide__photo-6 img,
+.slide__photo-12 img {
+  height: 540px;
 }
 
 @media(max-width: 1230px) {
@@ -296,8 +301,8 @@ iframe {
     width: 140%;
   }
   .top {
-    margin-top: -50%;
-    margin-bottom: -70%;
+    margin-top: -15%;
+    margin-bottom: -20%;
   }
 }
 
@@ -311,6 +316,10 @@ iframe {
   .logo__img {
     width: 160%;
   }
+  .top {
+    margin-top: -30%;
+    margin-bottom: -40%;
+  }
   .photo {
     margin-top: -50%;
     margin-bottom: -50%;
@@ -318,6 +327,10 @@ iframe {
 }
 
 @media(max-width: 375px) {
+  .top {
+    margin-top: -40%;
+    margin-bottom: -50%;
+  }
   .photo {
     margin-top: -70%;
     margin-bottom: -70%;
