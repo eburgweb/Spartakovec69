@@ -1,7 +1,15 @@
 $('.slider__photo').slick({
   infinite: true,
   slidesToShow: 1,
-  slidesToScroll: 1
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 900,
+      settings: {
+        arrows: false,
+      }
+    }
+  ]
 });
 
 $('#fullpage').fullpage({
