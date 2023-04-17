@@ -193,6 +193,16 @@ iframe {
   height: 540px;
 }
 
+.slick-next, .slick-prev,
+.slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover {
+  color: rgba(233, 224, 224, 0.514);
+  background-color: rgb(88, 85, 85);
+  border: 1px solid rgba(233, 224, 224, 0.514);
+  border-radius: 50%;
+  width: 25px;
+  height: 21px;
+}
+
 @media(max-width: 1270px) {
   .slick-next {
     margin: 20px;
