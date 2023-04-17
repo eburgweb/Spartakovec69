@@ -300,7 +300,7 @@ iframe {
 @media(max-width: 600px) {
   .video {
     margin: 0;
-    margin-top: -60%;
+    margin-top: -50%;
   }
   .photo {
     margin-top: -10%;
