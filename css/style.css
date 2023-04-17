@@ -243,6 +243,11 @@ iframe {
   .slick-prev.slick-arrow::before {
     display: none;
   }
+  .slick-next, .slick-prev,
+  .slick-next:focus, .slick-next:hover,
+  .slick-prev:focus, .slick-prev:hover {
+    display: none;
+  }
 }
 
 @media(max-width: 800px) {
