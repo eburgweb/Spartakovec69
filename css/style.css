@@ -384,6 +384,9 @@ iframe {
 }
 
 @media(max-width: 375px) {
+  .header {
+    padding-top: 30px;
+  }
   .top {
     margin-top: -10%;
     margin-bottom: -40%;
