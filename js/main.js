@@ -7,6 +7,8 @@ $('.slider__photo').slick({
       breakpoint: 900,
       settings: {
         arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
       }
     }
   ]
