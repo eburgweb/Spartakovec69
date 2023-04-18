@@ -398,4 +398,7 @@ iframe {
     margin-top: -50%;
     margin-bottom: 20px;
   }
+  .slide__photo img {
+    margin-left: 5px;
+  }
 }
