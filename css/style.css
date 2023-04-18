@@ -384,18 +384,20 @@ iframe {
 }
 
 @media(max-width: 375px) {
-  
   .top {
     margin-top: -10%;
     margin-bottom: -40%;
   }
+  .video {
+    margin-top: -40%;
+  }
   .video-2 {
     margin: 0 auto;
-    margin-top: 40%;
-    margin-bottom: 10%;
+    margin-top: 20%;
+    margin-bottom: -15%;
   }
   .photo {
-    margin-top: -50%;
+    margin-top: -40%;
     margin-bottom: 20px;
   }
   .slide__photo img {
