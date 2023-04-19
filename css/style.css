@@ -143,6 +143,10 @@ iframe {
   margin-bottom: 400px;
 }
 
+.video__content-2 {
+  display: none;
+}
+
 .video__title-2 {
   font-size: 33px;
   font-weight: 600;
