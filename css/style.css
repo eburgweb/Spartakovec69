@@ -386,6 +386,9 @@ iframe {
   .slide__photo-12 img {
     max-height: 250px;
   }
+  .slide__photo img {
+    margin-left: 5px;
+  }
 }
 
 @media(max-width: 375px) {
@@ -407,8 +410,5 @@ iframe {
   .photo {
     margin-top: -40%;
     margin-bottom: 20px;
-  }
-  .slide__photo img {
-    margin-left: 5px;
   }
 }
