@@ -62,7 +62,7 @@ body {
 
 @keyframes anim-1 {
   0% {
-    transform: translateX(-3000px);
+    transform: translateX(-3000px) rotate(150deg);
   }
   70% {
     transform: translateX(30px);
