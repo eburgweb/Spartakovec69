@@ -2,6 +2,8 @@ $('.slider__photo').slick({
   infinite: true,
   slidesToShow: 1,
   slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
   responsive: [
     {
       breakpoint: 900,
