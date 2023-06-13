@@ -1,3 +1,5 @@
+$(function(){
+
 $('.slider__photo').slick({
   infinite: true,
   slidesToShow: 1,
@@ -27,7 +29,7 @@ $('#fullpage').fullpage({
   responsiveWidth: 800,
 });
 
-$(function(){
+
   $('.minimized').click(function(event) {
     var i_path = $(this).attr('src');
     $('body').append('<div id="overlay"></div><div id="magnify"><img src="'+i_path+'"><div id="close-popup"><i></i></div></div>');
