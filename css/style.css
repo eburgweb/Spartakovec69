@@ -331,11 +331,6 @@ iframe {
   animation-iteration-count: 1;
 }
 
-.photo__btn-prev,
-.photo__btn-next {
-  display: none;
-  border: none;
-}
 #next {
   transform: scale(-1, 1);
 }
