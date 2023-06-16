@@ -6,6 +6,8 @@ $('.slider__photo').slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 3000,
+  prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><i class="fa fa-chevron-left" aria-hidden="true"></i><img src="./images/ice-hockey (1).svg" alt=""></button>',
+  nextArrow: '<button id="next" type="button" class="btn btn-juliet"><img src="./images/ice-hockey (1).svg" alt=""><i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
   responsive: [
     {
       breakpoint: 900,
