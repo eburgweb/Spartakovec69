@@ -331,6 +331,20 @@ iframe {
   animation-iteration-count: 1;
 }
 
+.photo__btn-prev,
+.photo__btn-next {
+  display: none;
+  border: none;
+}
+#next {
+  transform: scale(-1, 1);
+}
+.slick-arrow {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 @media(max-width: 1270px) {
   .slick-next {
     margin: 20px;
