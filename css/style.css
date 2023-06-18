@@ -331,10 +331,20 @@ iframe {
   animation-iteration-count: 1;
 }
 
+.slick-list {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#prev {
+  left: 5%;
+}
 #next {
   transform: scale(-1, 1);
+  right: 5%;
 }
 .slick-arrow {
+  position: absolute;
   border: none;
   background-color: transparent;
   cursor: pointer;
