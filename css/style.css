@@ -214,6 +214,7 @@ body {
 
 iframe {
   display: flex;
+  padding: 0;
   margin: 0 auto;
   max-width: 100%;
   min-height: 200px;
