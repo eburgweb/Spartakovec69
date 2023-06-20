@@ -87,6 +87,42 @@ body {
   margin: 0;
 }
 
+.logo__img-puck {
+  position: absolute;
+  top: 81%;
+  left: 40%;
+  animation-name: puck;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes puck {
+  0% {
+    transform: translateY(-3000px);
+  }
+  70% {
+    transform: translateY(30px);
+  }
+  80% {
+    transform: translateY(-15px) rotate(-30deg);
+  }
+  90% {
+    transform: translateY(10px) rotate(30deg);
+  }
+  95% {
+    transform: translateY(-5px) rotate(35deg);
+  }
+  100% {
+    transform: translateY(0) rotate(40deg);
+  }
+}
+
+.logo__img-puck svg {
+  display: block;
+  height: 30px;
+  width: 30px;
+}
+
 .header__items {
   display: flex;
   flex-direction: column;
@@ -409,6 +445,10 @@ iframe {
   .top__img {
     width: 90%;
   }
+  .logo__img-puck {
+    top: 81%;
+    left: 38%;
+  }
 }
 
 @media(max-width: 900px) {
@@ -416,7 +456,11 @@ iframe {
     width: 100%;
     margin-top: 120px;
   }
-/*   .slick-next.slick-arrow,
+  .logo__img-puck {
+    top: 81%;
+    left: 36%;
+  }
+  /* .slick-next.slick-arrow,
   .slick-next.slick-arrow::before {
     display: none;
   }
@@ -479,11 +523,14 @@ iframe {
     margin-top: -5%;
     margin-bottom: 5%;
   }
+  .logo__img-puck {
+    top: 81%;
+    left: 42%;
+  }
 }
 
 @media(max-width: 700px) {
   .top__img {
-    margin-top: 30px;
     padding: 40px 0 0;
     margin-bottom: auto;
   }
@@ -492,16 +539,31 @@ iframe {
     padding: 40px 0 0;
     margin: 0;
   }
+  .logo__img-puck {
+    top: 81%;
+    left: 40%;
+  }
 }
 
 @media(max-width: 600px) {
   .video {
     margin: 0;
-    margin-top: -50%;
+    margin-top: -60%;
   }
   .photo {
     margin-top: -10%;
     margin-bottom: 10%;
+  }
+  .logo__img-puck {
+    top: 81%;
+    left: 38%;
+  }
+}
+
+@media(max-width: 580px) {
+  .logo__img-puck {
+    top: 76%;
+    left: 38%;
   }
 }
 
@@ -533,6 +595,10 @@ iframe {
   .photo {
     margin-top: -70%;
     margin-bottom: -10%;
+  }
+  .logo__img-puck {
+    top: 75%;
+    left: 42%;
   }
 }
 
@@ -566,11 +632,15 @@ iframe {
   .slide__photo img {
     margin-left: 5px;
   }
+  .logo__img-puck {
+    top: 69%;
+    left: 48%;
+  }
 }
 
 @media(max-width: 375px) {
   .header {
-    padding-top: 15px;
+    padding-top: 30px;
   }
   .top {
     margin-top: -10%;
@@ -587,5 +657,13 @@ iframe {
   .photo {
     margin-top: -40%;
     margin-bottom: 20px;
+  }
+}
+
+
+@media(max-width: 340px) {
+  .logo__img-puck {
+    top: 60%;
+    left: 40%;
   }
 }
