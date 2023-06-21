@@ -90,7 +90,7 @@ body {
 .logo__img-puck {
   position: absolute;
   top: 66%;
-  left: 42%;
+  left: 44%;
   animation-name: puck;
   animation-duration: 2s;
   animation-fill-mode: forwards;
