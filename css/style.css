@@ -446,7 +446,7 @@ iframe {
     width: 90%;
   }
   .logo__img-puck {
-    dysplay: none;
+    display: none;
   }
 }
 
@@ -456,7 +456,7 @@ iframe {
     margin-top: 120px;
   }
   .logo__img-puck {
-    dysplay: none;
+    display: none;
   }
   /* .slick-next.slick-arrow,
   .slick-next.slick-arrow::before {
@@ -522,7 +522,7 @@ iframe {
     margin-bottom: 5%;
   }
   .logo__img-puck {
-    dysplay: none;
+    display: none;
   }
 }
 
@@ -537,7 +537,7 @@ iframe {
     margin: 0;
   }
   .logo__img-puck {
-    dysplay: none;
+    display: none;
   }
 }
 
@@ -551,7 +551,7 @@ iframe {
     margin-bottom: 10%;
   }
   .logo__img-puck {
-    dysplay: none;
+    display: none;
   }
 }
 
@@ -585,7 +585,7 @@ iframe {
     margin-bottom: -10%;
   }
   .logo__img-puck {
-    dysplay: none;
+    display: none;
   }
 }
 
