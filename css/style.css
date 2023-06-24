@@ -501,11 +501,6 @@ iframe {
   .logo__img {
     width: 120%;
   }
-  .section__contents {
-    justify-content: center;
-    margin-bottom: -50px;
-    padding: 0 0 10px;
-  }
   .btn__down {
     display: none;
   }
@@ -518,11 +513,24 @@ iframe {
     padding: 0;
     margin: 0;
   }
+  .video-1__inner {
+    margin-top: -30%;
+  }
+  .video-2__inner {
+    margin-top: -30%;
+  }
+  .video-3__inner {
+    margin-top: -100%;
+  }
+  
   .video {
     margin-top: -30%;
   }
   .video__title-2 {
     margin: -50% 0 20px;
+  }
+  .video__title-3 {
+    margin-top: 0;
   }
   .video__content {
     margin: 0;
@@ -530,7 +538,7 @@ iframe {
     margin-bottom: -50%;
   }
   .photo {
-    margin-top: -5%;
+    margin-top: -60%;
     margin-bottom: 5%;
   }
   .logo__img-puck {
