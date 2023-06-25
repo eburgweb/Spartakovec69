@@ -39,11 +39,13 @@ body {
   max-width: 1920px;
   text-align: center;
   margin: 0 auto;
-  padding: 10px;
+  padding: 0px;
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
+  z-index: 100;
+  background: rgb(233, 232, 232);
 }
 
 .header__inner {
@@ -169,7 +171,7 @@ body {
   max-width: 600px;
   height: 2px;
   border: 1px solid #9c02024f;
-  margin: 10px auto 20px;
+  margin: 10px auto 10px;
 }
 
 .main {
@@ -178,67 +180,53 @@ body {
   text-align: center;
 }
 
-.section__contents {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-  /* margin-top: -20px; */
-}
-
-/* .section__contents.video-1 {
-  padding: 0;
-  height: 100vh;
-} */
-
-.section__contents.video-2 {
-  padding: 0;
-}
-.section__contents.video-3 {
-  height: 100vh;
-  padding: 0;
-  margin-top: -100px;
+.top {
+  padding: 50px 0 30px;
 }
 
 .top__inner {
-  margin: 10px 0 27px;
+  margin: 10px 0 20px;
+  padding: 30px 0 22px;
+}
+
+.line {
+  width: 700px;
+  height: 2px;
+  border: 1px solid #9c02024f;
+  margin: 0px auto 10px;
 }
 
 .video-1__inner {
-  margin-top: 8%;
-  margin-bottom: 8px;
+  margin-top: 15%;
+  margin-bottom: 32px;
   padding: 0;
 }
 
 .video-2__inner {
-  margin-top: 18%;
-  margin-bottom: 0;
+  margin: 60px auto 20px;
   padding: 0;
 }
 
 .video-3__inner {
-  margin-top: 29%;
-  margin-bottom: 5px;
-  padding: 0;
+  padding: 10px 0 50px;
 }
 
 .btn__down {
   text-align: center;
-  position: fixed;
+  position: absolute;
   /* margin-top: auto; */
   /* bottom: 0px; */
   margin: 20px 0 20px;
   z-index: 10;
 }
 .btn__down--pal {
-  margin-top: -53px;
-}
-
-.top {
-  display: flex;
-  flex-direction: column;
-  margin-top: -1px;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 42px;
 }
 
 .top__img {
@@ -264,7 +252,7 @@ body {
 .video__title-3 {
   font-size: 33px;
   font-weight: 600;
-  margin: 10px auto 25px;
+  margin: 10% auto 25px;
   text-align: center;
   color: #4c56e0dc;
 }
@@ -278,8 +266,7 @@ iframe {
 }
 
 .video-2 {
-  margin: 0 auto;
-  margin-bottom: 400px;
+  margin: 0 auto -70px;
 }
 
 .video__content-2 {
@@ -306,50 +293,34 @@ iframe {
 .video__content video {
   width: 270px;
 }
+.photo {
+  margin-bottom: 30px;
+}
 
 .slider__photo {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  max-width: 800px;
+  width: 100%;
 }
 
 .slide__photo img {
   margin: 0 auto;
   max-width: 800px;
-  max-height: 540px;
   width: 100%;
 }
 
 .slide__photo + .slide__photo {
-  margin-left: 10px;
-}
-
-.slide__photo-5 img,
-.slide__photo-7 img,
-.slide__photo-8 img,
-.slide__photo-9 img {
-  max-width: 800px;
-  /* width: auto; */
-}
-
-.slide__photo-3 img,
-.slide__photo-6 img,
-.slide__photo-12 img {
-  height: 540px;
-}
-
-.slick-next, .slick-prev,
-.slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover {
-  color: rgba(233, 224, 224, 0.514);
-  background-color: rgb(88, 85, 85);
-  border: 1px solid rgba(233, 224, 224, 0.514);
-  border-radius: 50%;
-  width: 25px;
-  height: 21px;
+  margin-left: 100px;
 }
 
 .btn__down--photo {
-  margin-top: 25px;
+  margin: -7% 0 0;
+}
+
+.btn img {
+  margin-top: -150%;
 }
 
 /* картинка на странице */
@@ -430,11 +401,11 @@ iframe {
 }
 
 #prev {
-  left: 5%;
+  left: -50px;
 }
 #next {
   transform: scale(-1, 1);
-  right: 5%;
+  right: -50px;
 }
 .slick-arrow {
   position: absolute;
@@ -443,51 +414,30 @@ iframe {
   cursor: pointer;
 }
 
-@media(max-width: 1270px) {
-  .slick-next {
-    margin: 20px;
+@media (max-width: 1100px) {
+  .photo {
+    margin-bottom: 30px;
   }
-  .slick-prev {
-    margin: 20px;
+  #prev, #next {
+    display: none;
   }
-}
-
-@media(max-width: 1230px) {
-  .top__img {
-    width: 75%;
+  .btn__down--photo {
+    display: none;
   }
 }
-
-@media(max-width: 1100px) {
-  .top__img {
-    width: 85%;
-  }
-}
-
-@media(max-width: 1000px) {
-  .top__img {
-    width: 90%;
-  }
+@media (max-width: 1000px) {
   .logo__img-puck {
-    top: 81%;
-    left: 38%;
+    padding: 0;
+    margin-left: -2%;
   }
-}
-
-@media(max-width: 900px) {
   .top__img {
-    width: 100%;
-    margin-top: 120px;
-  }
-  .logo__img-puck {
-    top: 81%;
-    left: 36%;
+    width: 80%;
   }
 }
-
-@media(max-width: 800px) {
-  .header {
-    position: absolute;
+@media (max-width: 800px) {
+  .logo__img-puck {
+    padding: 0;
+    margin-left: 1%;
   }
   .header__title {
     font-size: 60px;
@@ -495,134 +445,29 @@ iframe {
   .header__text {
     font-size: 25px;
   }
-  .header__line {
-    max-width: 500px;
-  }
-  .logo__img {
-    width: 120%;
-  }
-  .btn__down {
-    display: none;
+  .line {
+    max-width: 600px;
+    margin: 0px auto 10px;
   }
   .top__img {
-    padding: 80px 0 0;
-    margin: 0;
-  }
-  .top__img img {
     width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  .video-1__inner {
-    margin-top: -30%;
-  }
-  .video-2__inner {
-    margin-top: -30%;
-  }
-  .video-3__inner {
-    margin-top: -100%;
-  }
-  
-  .video {
-    margin-top: -30%;
-  }
-  .video__title-2 {
-    margin: -50% 0 20px;
-  }
-  .video__title-3 {
-    margin-top: 0;
-  }
-  .video__content {
-    margin: 0;
-    padding: 0;
-    margin-bottom: -50%;
   }
   .photo {
-    margin-top: -60%;
-    margin-bottom: 5%;
-  }
-  .logo__img-puck {
-    top: 81%;
-    left: 42%;
-  }
-}
-
-@media(max-width: 700px) {
-  .top__img {
-    padding: 40px 0 0;
-    margin-bottom: auto;
-  }
-  .top__img img {
-    width: 100%;
-    padding: 40px 0 0;
-    margin: 0;
-  }
-  .logo__img-puck {
-    top: 81%;
-    left: 40%;
-  }
-}
-
-@media(max-width: 600px) {
-  .video {
-    margin: 0;
-    margin-top: -60%;
-  }
-  .photo {
-    margin-top: -10%;
-    margin-bottom: 10%;
-  }
-  .logo__img-puck {
-    top: 81%;
-    left: 38%;
-  }
-}
-
-@media(max-width: 580px) {
-  .logo__img-puck {
-    top: 76%;
-    left: 38%;
-  }
-}
-
-@media(max-width: 500px) {
-  .header__title {
-    font-size: 50px;
-  }
-  .header__text {
-    font-size: 25px;
-  }
-  .logo__img {
-    width: 140%;
-  }
-  .top {
-    margin-top: -15%;
-    margin-bottom: -20%;
-  }
-  .photo {
-    margin-top: -30%;
-    margin-bottom: -30%;
-  }
-  .slide__photo-5 img,
-  .slide__photo-6 img,
-  .slide__photo-8 img,
-  .slide__photo-9 img,
-  .slide__photo-12 img {
-    max-height: 300px;
-  }
-  .photo {
-    margin-top: -70%;
-    margin-bottom: -10%;
-  }
-  .logo__img-puck {
-    top: 75%;
-    left: 42%;
-  }
-}
-
-@media(max-width: 430px) {
-  .logo__img {
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .photo {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo__img {
+    width: 90%;
+  }
+  .logo__img-puck {
+    margin-left: 8%;
   }
   .header__title {
     font-size: 40px;
@@ -630,58 +475,82 @@ iframe {
   .header__text {
     font-size: 20px;
   }
-  .logo__img {
-    width: 160%;
+  .top__img {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: -30px;
   }
-  .top {
-    margin-top: -30%;
-    margin-bottom: -40%;
+  .video-1__inner {
+    margin-top: -10%;
+  }
+  iframe {
+    height: 150px;
   }
   .photo {
-    margin-top: -70%;
-    margin-bottom: -30%;
+    margin-bottom: 10px;
   }
-  .slide__photo-5 img,
-  .slide__photo-6 img,
-  .slide__photo-8 img,
-  .slide__photo-12 img {
-    max-height: 250px;
+  .minimized {
+    max-width: 100%;
   }
   .slide__photo img {
-    margin-left: 5px;
-  }
-  .logo__img-puck {
-    top: 69%;
-    left: 48%;
+    max-width: 100%;
+    max-height: 250px;
+    margin-bottom: 30px;
   }
 }
-
-@media(max-width: 375px) {
-  .header {
-    padding-top: 30px;
+@media (max-width: 450px) {
+  .logo__img {
+    width: 80%;
   }
-  .top {
-    margin-top: -10%;
-    margin-bottom: -40%;
+  .logo__img-puck {
+    margin-left: 2%;
   }
-  .video {
-    margin-top: -40%;
+  .logo__img-puck svg {
+    height: 20px;
+    width: 20px;
   }
-  .video-2 {
-    margin: 0 auto;
-    margin-top: 30%;
-    margin-bottom: -15%;
+  .header__title {
+    font-size: 40px;
   }
-  .photo {
-    margin-top: -40%;
-    margin-bottom: 20px;
+  .header__text {
+    font-size: 20px;
   }
 }
-
-
-@media(max-width: 340px) {
+@media (max-width: 400px) {
+  .logo__img {
+    width: 100%;
+  }
   .logo__img-puck {
-    top: 60%;
-    left: 40%;
+    left: 38%;
+    top: 90%;
+  }
+  .header__text {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .logo__img {
+    width: 100%;
+  }
+  .logo__img-puck {
+    left: 38%;
+    top: 85%;
+  }
+  .header__text {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 350px) {
+  .logo__img {
+    width: 100%;
+  }
+  .logo__img-puck {
+    left: 37%;
+    top: 81%;
+  }
+  .header__text {
+    padding-left: 20px;
   }
 }
