@@ -320,7 +320,7 @@ iframe {
 }
 
 .btn img {
-  margin-top: -150%;
+  margin-top: -100%;
 }
 
 /* картинка на странице */
@@ -454,11 +454,6 @@ iframe {
   }
   .photo {
     margin-bottom: 20px;
-  }
-}
-@media (max-width: 700px) {
-  .photo {
-    margin-bottom: 0;
   }
 }
 
