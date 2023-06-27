@@ -8,9 +8,8 @@ $('.slider__photo').slick({
     autoplaySpeed: 3000,
     centerMode: true,
     variableWidth: true,
-    // appendArrows: $('.photo__btn-prev'),
-            prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><i class="fa fa-chevron-left" aria-hidden="true"></i><img src="./images/ice-hockey-1.svg" alt=""></button>',
-            nextArrow: '<button id="next" type="button" class="btn btn-juliet"><img src="./images/ice-hockey-1.svg" alt=""><i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
+    prevArrow: '<img class="slider__arrow slider__arrow-prev" src="./images/ice-hockey-1.svg" alt="arrow-prev">',
+    nextArrow: '<img class="slider__arrow slider__arrow-next" src="./images/ice-hockey-1.svg" alt="arrow-next">',
     responsive: [
       {
         breakpoint: 900,
