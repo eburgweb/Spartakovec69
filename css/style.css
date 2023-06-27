@@ -401,18 +401,18 @@ iframe {
   margin: 0 auto;
 }
 
-#prev {
-  left: -50px;
-}
-#next {
-  transform: scale(-1, 1);
-  right: -50px;
-}
-.slick-arrow {
+.slider__arrow {
   position: absolute;
-  border: none;
-  background-color: transparent;
   cursor: pointer;
+}
+
+.slider__arrow-prev {
+  left: -70px;
+}
+
+.slider__arrow-next {
+  transform: scale(-1, 1);
+  right: -70px;
 }
 
 @media (max-width: 1100px) {
