@@ -252,7 +252,7 @@ body {
 .video__title-3 {
   font-size: 33px;
   font-weight: 600;
-  margin: 90px auto 25px;
+  margin: 70px auto 25px;
   text-align: center;
   color: #4c56e0dc;
 }
@@ -294,7 +294,7 @@ iframe {
   width: 270px;
 }
 .photo {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 .slider__photo {
@@ -303,7 +303,7 @@ iframe {
   align-items: center;
   max-width: 800px;
   width: 100%;
-  margin-bottom: 50px;
+/*   margin-bottom: 50px; */
 }
 
 .slide__photo img {
