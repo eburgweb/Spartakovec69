@@ -531,6 +531,9 @@ iframe {
   .header__text {
     padding-left: 10px;
   }
+  .photo {
+    margin-bottom: 150px;
+  }
 }
 @media (max-width: 375px) {
   .logo__img {
@@ -542,9 +545,6 @@ iframe {
   }
   .header__text {
     padding-left: 20px;
-  }
-  .photo {
-    margin-bottom: 150px;
   }
 }
 @media (max-width: 350px) {
