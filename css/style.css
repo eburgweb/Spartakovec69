@@ -294,7 +294,7 @@ iframe {
   width: 270px;
 }
 .photo {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .slider__photo {
@@ -413,6 +413,10 @@ iframe {
 .slider__arrow-next {
   transform: scale(-1, 1);
   right: -70px;
+}
+
+.line--photo {
+  margin-bottom: 50px;
 }
 
 @media (max-height: 900px) {
