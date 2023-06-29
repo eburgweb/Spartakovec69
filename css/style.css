@@ -536,13 +536,13 @@ iframe {
     padding-left: 10px;
   }
   .photo {
-    margin-bottom: 120px;
+    margin-bottom: 70px;
   }
   .video__title {
     margin-top: 120px;
   }
   .line--photo {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 375px) {
