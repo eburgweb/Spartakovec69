@@ -326,7 +326,6 @@ iframe {
 
 /* картинка на странице */
 .minimized {
-  width: 300px;
   cursor: pointer;
   border: 1px solid #FFF;
 }
@@ -496,9 +495,6 @@ iframe {
   }
   .photo {
     margin-bottom: 10px;
-  }
-  .minimized {
-    max-width: 100%;
   }
   .slide__photo img {
     max-width: 100%;
