@@ -449,6 +449,22 @@ iframe {
   }
 }
 @media (max-width: 1000px) {
+  body {
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    text-transform: none;
+  }
+  .header__title {
+    font-size: 80px;
+  }
+  .video__title,
+  .video__title-2,
+  .video__title-3 {
+    font-size: 33px;
+  }
+  .header__text {
+    font-size: 33px;
+  }
   .logo__img-puck {
     padding: 0;
     margin-left: -2%;
