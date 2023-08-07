@@ -20,7 +20,7 @@ body {
   font-weight: 400;
   /* background: rgba(233, 232, 232); */
   z-index: -1;
-  background-image: url('../images/snowflake-bg.jpg');
+  background-image: url('../images/snowflakes_background.jpg');
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -57,7 +57,7 @@ body {
   right: 0;
   top: 0;
   z-index: 100;
-  background-image: url('../images/snowflake-bg.jpg');
+  background-image: url('../images/snowflakes_background.jpg');
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
