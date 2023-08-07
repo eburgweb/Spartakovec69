@@ -8,8 +8,8 @@ $('.slider__photo').slick({
     autoplaySpeed: 3000,
     centerMode: true,
     variableWidth: true,
-    prevArrow: '<img class="slider__arrow slider__arrow-prev" src="./images/ice-hockey-1.svg" alt="arrow-prev">',
-    nextArrow: '<img class="slider__arrow slider__arrow-next" src="./images/ice-hockey-1.svg" alt="arrow-next">',
+    prevArrow: '<img class="slider__arrow slider__arrow-prev" src="./images/hockeyvector.svg" alt="arrow-prev">',
+    nextArrow: '<img class="slider__arrow slider__arrow-next" src="./images/hockeyvector.svg" alt="arrow-next">',
     responsive: [
       {
         breakpoint: 900,
